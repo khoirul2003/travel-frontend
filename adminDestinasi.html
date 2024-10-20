@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinasi</title>
+    <link rel="stylesheet" href="./css/adminDestinasiStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <button class="toggle-sidebar" id="toggle-sidebar">
+        <i class="fas fa-bars"></i>
+      </button>
+      <h1>Data Destinasi</h1>
+    </nav>
+
+    <div class="container">
+      <aside class="sidebar" id="sidebar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Destinasi</a></li>
+          <li><a href="#">Destinasi</a></li>
+          <li><a href="#">Destinasi</a></li>
+        </ul>
+      </aside>
+
+      <main class="main-content">
+        <h2 class="title-content">Destinasi</h2>
+        <button class="btn btn-add" id="addDestination">Tambah Destinasi</button>
+        <table>
+          <thead>
+            <tr>
+              <th>Nama Destinasi</th>
+              <th>Daerah Destinasi</th>
+              <th>Gambar</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Malang</td>
+              <td>Malang</td>
+              <td><img src="./img/thumb_11zon-1-1536x1021.jpg" alt="" class="img-table"></td>
+              <td>
+                <button class="btn btn-view">Lihat</button>
+                <button class="btn btn-update">Update</button>
+                <button class="btn btn-delete">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Malang</td>
+              <td>Malang</td>
+              <td><img src="./img/maxresdefault.jpg" alt="" class="img-table"></td>
+              <td>
+                <button class="btn btn-view">Lihat</button>
+                <button class="btn btn-update">Update</button>
+                <button class="btn btn-delete">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+
+    <script src="./js/destinasiScripe.js"></script>
+  </body>
+
+</html>
